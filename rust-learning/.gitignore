@@ -1,0 +1,10 @@
+target/
+**/*.rs.bk
+Cargo.lock.bak
+*.pdb
+
+.cache/
+.idea/
+*.swp
+*.swo
+.DS_Store

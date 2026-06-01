@@ -1,0 +1,6 @@
+[workspace]
+members = [
+	"lib-crate",
+	"runtime-crate",
+]
+resolver = "3"

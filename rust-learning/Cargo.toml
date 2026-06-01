@@ -1,0 +1,19 @@
+[package]
+name = "rust-learning"
+version = "0.1.0"
+edition = "2021"
+description = "Sandbox project for practicing Rust"
+default-run = "rust-learning"
+
+[[bin]]
+name = "rust-learning"
+path = "src/main.rs"
+
+[profile.dev]
+opt-level = 0
+debug = true
+
+[profile.release]
+opt-level = 3
+debug = false
+lto = true
